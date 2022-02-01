@@ -1,0 +1,40 @@
+{
+  "name": "vanwittlaer/example-two",
+  "description": "Example: Add a custom field to a system form",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "VanWittlaer GmbH"
+    }
+  ],
+  "require": {
+    "shopware/core": "~6.4"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "VanWittlaer\\ExampleTwo\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "VanWittlaer\\ExampleTwo\\VanWittlaerExampleTwo",
+    "copyright": "VanWittlaer GmbH",
+    "label": {
+      "de-DE": "VanWittlaerExampleTwo",
+      "en-GB": "VanWittlaerExampleTwo"
+    },
+    "description": {
+      "de-DE": "Example: Implement custom field via entity extension",
+      "en-GB": "Example: Implement custom field via entity extension"
+    },
+    "manufacturerLink": {
+      "de-DE": "https://vanwittlaer.de",
+      "en-GB": "https://vanwittlaer.de"
+    },
+    "supportLink": {
+      "de-DE": "https://vanwittlaer.de",
+      "en-GB": "https://vanwittlaer.de"
+    }
+  }
+}

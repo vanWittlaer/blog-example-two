@@ -1,0 +1,23 @@
+{% sw_extends "@Storefront/storefront/component/address/address-form.html.twig" %}
+
+{% block component_address_form_street %}
+    <div class="form-group col-md-6">
+        <label class="form-label"
+               for="{{ prefix }}w3w">
+            {{ "vanwittlaer.vanwittlaer_w3w_label"|trans|sw_sanitize }}
+        </label>
+
+        <input type="text"
+               class="form-control"
+               id="{{ prefix }}w3w"
+               placeholder="{{ "vanwittlaer.vanwittlaer_w3w_placeholder"|trans|sw_sanitize }}"
+               name="{{ prefix }}[w3w]"
+               value="{{ data.get('customFields')['vanwittlaer_what_three_words'] }}"
+               data-van-wittlaer-example-two-w3w="true"
+               data-van-wittlaer-example-two-w3w-message="{{ "vanwittlaer.vanwittlaer_w3w_message"|trans|sw_sanitize }}"
+        >
+    </div>
+    <div class="col-md-6">
+    </div>
+    {{ parent() }}
+{% endblock %}

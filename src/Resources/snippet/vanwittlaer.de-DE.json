@@ -1,0 +1,7 @@
+{
+    "vanwittlaer": {
+        "vanwittlaer_w3w_label": "What3Words-Adresse",
+        "vanwittlaer_w3w_placeholder": "///what.three.words",
+        "vanwittlaer_w3w_message": "Geben Sie eine gültige Adresse ein - Format: ///what.three.words"
+    }
+}
